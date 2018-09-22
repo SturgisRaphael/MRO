@@ -1,20 +1,33 @@
 package mscp;
 
+import org.json.JSONArray;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
 
 public class Station {
     int id;
     int region;
     int delta;
-    ArrayList<Integer> EmitingFrequencies;
-    ArrayList<Integer> ReceivingFrequencies;
+    ArrayList<Integer> EmitingFrequencies = new ArrayList<>();
+    ArrayList<Integer> ReceivingFrequencies = new ArrayList<>();
 
-    public Station(int id, int region, int delta, ArrayList<Integer> emitingFrequencies, ArrayList<Integer> receivingFrequencies) {
-        this.id = id;
-        this.region = region;
-        this.delta = delta;
-        EmitingFrequencies = emitingFrequencies;
-        ReceivingFrequencies = receivingFrequencies;
+    public Station(JSONObject station) {
+        JSONArray emitingArray = station.getJSONArray("emetteur");
+        for(int i = 0; i < emitingArray.length(); i++)
+        {
+            EmitingFrequencies.add(emitingArray.getInt(i));
+        }
+
+        JSONArray receivingArray = station.getJSONArray("recepteur");
+        for(int i = 0; i < receivingArray.length(); i++)
+        {
+            ReceivingFrequencies.add(receivingArray.getInt(i));
+        }
+
+        id = station.getInt("num");
+        region = station.getInt("region");
+        delta = station.getInt("delta");
     }
 
     public int getId() {
@@ -35,5 +48,16 @@ public class Station {
 
     public ArrayList<Integer> getReceivingFrequencies() {
         return ReceivingFrequencies;
+    }
+
+    @Override
+    public String toString() {
+        return "Station{" +
+                "\n\tid=" + id +
+                "\n\t region=" + region +
+                "\n\t delta=" + delta +
+                "\n\t EmitingFrequencies=" + EmitingFrequencies +
+                "\n\t ReceivingFrequencies=" + ReceivingFrequencies +
+                "\n\t}";
     }
 }
