@@ -1,4 +1,4 @@
-package mscp;
+package struct;
 
 import org.json.*;
 import util.JSONUtils;
