@@ -1,0 +1,7 @@
+Stations-COP1-celar_150_13_15_5_0.800000_26
+
+real	8m20.896s
+user	8m29.540s
+sys	0m0.248s
+
+Stations-COP1-celar_150_13_15_5_0.800000_28

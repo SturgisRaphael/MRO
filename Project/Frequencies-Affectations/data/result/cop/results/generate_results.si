@@ -1,0 +1,6 @@
+c java -server -Xmx500m -cp .:.//choco-parsers.jar org.chocosolver.parser.xcsp.ChocoXCSP "instances/generate_results.sh"  -tl '500s' -p 1 -x 0
+c [instances/generate_results.sh, -tl, 500s, -p, 1, -x, 0]
+c simple solver
+c parse instance...
+s UNSUPPORTED
+c Content is not allowed in prolog.

@@ -1,0 +1,15 @@
+c java -server -Xmx500m -cp .:.//choco-parsers.jar org.chocosolver.parser.xcsp.ChocoXCSP "instances/Stations-COP1-celar_150_13_15_5_0.800000_28.xml"  -tl '500s' -p 1 -x 0
+c [instances/Stations-COP1-celar_150_13_15_5_0.800000_28.xml, -tl, 500s, -p, 1, -x, 0]
+c simple solver
+c parse instance...
+c solve instance...
+o 17 
+o 16 
+o 15 
+o 14 
+o 13 
+o 12 
+o 11 
+o 10 
+o 9 
+o 8 

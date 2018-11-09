@@ -1,0 +1,6 @@
+<instance format="XCSP3" type="CSP">
+<variables>
+<array id="q" note="q[i] is the column where is put the ith queen (at row i)" size="[5]"> 0..4 </array>
+</variables>
+<constraints/>
+</instance>
