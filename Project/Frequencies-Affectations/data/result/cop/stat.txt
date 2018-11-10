@@ -5,3 +5,454 @@ user	8m29.540s
 sys	0m0.248s
 
 Stations-COP1-celar_150_13_15_5_0.800000_28
+
+real	8m20.841s
+user	8m30.820s
+sys	0m0.220s
+
+Stations-COP1-celar_150_13_15_5_0.800000_29
+
+real	8m20.790s
+user	8m28.608s
+sys	0m0.484s
+
+Stations-COP1-celar_150_13_15_5_0.800000_2
+
+real	8m20.855s
+user	8m29.220s
+sys	0m0.244s
+
+Stations-COP1-celar_150_13_15_5_0.800000_8
+
+real	8m20.784s
+user	8m28.196s
+sys	0m0.228s
+
+Stations-COP1-celar_250_25_15_5_0.820000_20
+
+real	8m20.951s
+user	8m32.064s
+sys	0m0.268s
+
+Stations-COP1-celar_250_25_15_5_0.820000_22
+
+real	8m21.025s
+user	8m31.512s
+sys	0m0.324s
+
+Stations-COP1-celar_250_25_15_5_0.820000_5
+
+real	8m21.072s
+user	8m30.556s
+sys	0m0.288s
+
+Stations-COP1-celar_250_25_15_5_0.820000_7
+
+real	8m20.848s
+user	8m31.456s
+sys	0m0.300s
+
+Stations-COP1-celar_250_25_15_5_0.820000_9
+
+real	8m20.894s
+user	8m30.468s
+sys	0m0.384s
+
+Stations-COP1-celar_500_30_20_5_0.870000_24
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at org.chocosolver.memory.trailing.trail.flatten.StoredLongTrail.resizeUpdateCapacity(StoredLongTrail.java:177)
+	at org.chocosolver.memory.trailing.trail.flatten.StoredLongTrail.buildFakeHistory(StoredLongTrail.java:154)
+	at org.chocosolver.memory.trailing.StoredLong.<init>(StoredLong.java:31)
+	at org.chocosolver.memory.trailing.EnvironmentTrailing.makeLong(EnvironmentTrailing.java:175)
+	at org.chocosolver.memory.structure.S64BitSet.ensureCapacity(S64BitSet.java:136)
+	at org.chocosolver.memory.structure.S64BitSet.expandTo(S64BitSet.java:167)
+	at org.chocosolver.memory.structure.S64BitSet.set(S64BitSet.java:199)
+	at org.chocosolver.memory.structure.S64BitSet.set(S64BitSet.java:216)
+	at org.chocosolver.util.objects.setDataStructures.bitset.Set_Std_BitSet.add(Set_Std_BitSet.java:62)
+	at org.chocosolver.solver.constraints.nary.nValue.amnv.rules.R3.enforceEq(R3.java:115)
+	at org.chocosolver.solver.constraints.nary.nValue.amnv.rules.R3.filter(R3.java:95)
+	at org.chocosolver.solver.constraints.nary.nValue.PropAMNV.propagate(PropAMNV.java:75)
+	at org.chocosolver.solver.propagation.hardcoded.SevenQueuesPropagatorEngine.propagate(SevenQueuesPropagatorEngine.java:208)
+	at org.chocosolver.solver.search.strategy.selectors.values.IntDomainBest.bound(IntDomainBest.java:101)
+	at org.chocosolver.solver.search.strategy.selectors.values.IntDomainBest.selectValue(IntDomainBest.java:70)
+	at org.chocosolver.solver.search.strategy.selectors.variables.DomOverWDeg.computeDecision(DomOverWDeg.java:81)
+	at org.chocosolver.solver.search.strategy.selectors.variables.DomOverWDeg.getDecision(DomOverWDeg.java:112)
+	at org.chocosolver.solver.search.strategy.strategy.StrategiesSequencer.getDecision(StrategiesSequencer.java:97)
+	at org.chocosolver.solver.search.strategy.strategy.LastConflict.getDecision(LastConflict.java:101)
+	at org.chocosolver.solver.search.strategy.strategy.StrategiesSequencer.getDecision(StrategiesSequencer.java:97)
+	at org.chocosolver.solver.search.loop.move.MoveBinaryDFS.extend(MoveBinaryDFS.java:61)
+	at org.chocosolver.solver.search.loop.move.MoveRestart.extend(MoveRestart.java:81)
+	at org.chocosolver.solver.Solver.extend(Solver.java:429)
+	at org.chocosolver.solver.Solver.searchLoop(Solver.java:298)
+	at org.chocosolver.solver.Solver.solve(Solver.java:264)
+	at org.chocosolver.parser.xcsp.XCSP.singleThread(XCSP.java:148)
+	at org.chocosolver.parser.xcsp.XCSP.solve(XCSP.java:132)
+	at org.chocosolver.parser.xcsp.ChocoXCSP.main(ChocoXCSP.java:25)
+
+real	8m25.546s
+user	8m37.428s
+sys	0m0.540s
+
+Stations-COP1-celar_500_30_20_5_0.870000_29
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at org.chocosolver.memory.trailing.trail.flatten.StoredLongTrail.resizeUpdateCapacity(StoredLongTrail.java:177)
+	at org.chocosolver.memory.trailing.trail.flatten.StoredLongTrail.buildFakeHistory(StoredLongTrail.java:154)
+	at org.chocosolver.memory.trailing.StoredLong.<init>(StoredLong.java:31)
+	at org.chocosolver.memory.trailing.EnvironmentTrailing.makeLong(EnvironmentTrailing.java:175)
+	at org.chocosolver.memory.structure.S64BitSet.ensureCapacity(S64BitSet.java:136)
+	at org.chocosolver.memory.structure.S64BitSet.expandTo(S64BitSet.java:167)
+	at org.chocosolver.memory.structure.S64BitSet.set(S64BitSet.java:199)
+	at org.chocosolver.memory.structure.S64BitSet.set(S64BitSet.java:216)
+	at org.chocosolver.util.objects.setDataStructures.bitset.Set_Std_BitSet.add(Set_Std_BitSet.java:62)
+	at org.chocosolver.solver.constraints.nary.nValue.amnv.rules.R3.enforceEq(R3.java:115)
+	at org.chocosolver.solver.constraints.nary.nValue.amnv.rules.R3.filter(R3.java:95)
+	at org.chocosolver.solver.constraints.nary.nValue.PropAMNV.propagate(PropAMNV.java:75)
+	at org.chocosolver.solver.propagation.hardcoded.SevenQueuesPropagatorEngine.propagate(SevenQueuesPropagatorEngine.java:208)
+	at org.chocosolver.solver.search.strategy.selectors.values.IntDomainBest.bound(IntDomainBest.java:101)
+	at org.chocosolver.solver.search.strategy.selectors.values.IntDomainBest.selectValue(IntDomainBest.java:70)
+	at org.chocosolver.solver.search.strategy.selectors.variables.DomOverWDeg.computeDecision(DomOverWDeg.java:81)
+	at org.chocosolver.solver.search.strategy.selectors.variables.DomOverWDeg.getDecision(DomOverWDeg.java:112)
+	at org.chocosolver.solver.search.strategy.strategy.StrategiesSequencer.getDecision(StrategiesSequencer.java:97)
+	at org.chocosolver.solver.search.strategy.strategy.LastConflict.getDecision(LastConflict.java:101)
+	at org.chocosolver.solver.search.strategy.strategy.StrategiesSequencer.getDecision(StrategiesSequencer.java:97)
+	at org.chocosolver.solver.search.loop.move.MoveBinaryDFS.extend(MoveBinaryDFS.java:61)
+	at org.chocosolver.solver.search.loop.move.MoveRestart.extend(MoveRestart.java:81)
+	at org.chocosolver.solver.Solver.extend(Solver.java:429)
+	at org.chocosolver.solver.Solver.searchLoop(Solver.java:298)
+	at org.chocosolver.solver.Solver.solve(Solver.java:264)
+	at org.chocosolver.parser.xcsp.XCSP.singleThread(XCSP.java:148)
+	at org.chocosolver.parser.xcsp.XCSP.solve(XCSP.java:132)
+	at org.chocosolver.parser.xcsp.ChocoXCSP.main(ChocoXCSP.java:25)
+
+real	9m0.432s
+user	9m12.596s
+sys	0m0.616s
+
+Stations-COP1-celar_500_30_20_5_0.870000_45
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at org.chocosolver.memory.trailing.trail.flatten.StoredLongTrail.resizeUpdateCapacity(StoredLongTrail.java:177)
+	at org.chocosolver.memory.trailing.trail.flatten.StoredLongTrail.buildFakeHistory(StoredLongTrail.java:154)
+	at org.chocosolver.memory.trailing.StoredLong.<init>(StoredLong.java:31)
+	at org.chocosolver.memory.trailing.EnvironmentTrailing.makeLong(EnvironmentTrailing.java:175)
+	at org.chocosolver.memory.structure.S64BitSet.ensureCapacity(S64BitSet.java:136)
+	at org.chocosolver.memory.structure.S64BitSet.expandTo(S64BitSet.java:167)
+	at org.chocosolver.memory.structure.S64BitSet.set(S64BitSet.java:199)
+	at org.chocosolver.memory.structure.S64BitSet.set(S64BitSet.java:216)
+	at org.chocosolver.util.objects.setDataStructures.bitset.Set_Std_BitSet.add(Set_Std_BitSet.java:62)
+	at org.chocosolver.solver.constraints.nary.nValue.amnv.rules.R3.enforceEq(R3.java:115)
+	at org.chocosolver.solver.constraints.nary.nValue.amnv.rules.R3.filter(R3.java:95)
+	at org.chocosolver.solver.constraints.nary.nValue.PropAMNV.propagate(PropAMNV.java:75)
+	at org.chocosolver.solver.propagation.hardcoded.SevenQueuesPropagatorEngine.propagate(SevenQueuesPropagatorEngine.java:208)
+	at org.chocosolver.solver.search.strategy.selectors.values.IntDomainBest.bound(IntDomainBest.java:101)
+	at org.chocosolver.solver.search.strategy.selectors.values.IntDomainBest.selectValue(IntDomainBest.java:70)
+	at org.chocosolver.solver.search.strategy.selectors.variables.DomOverWDeg.computeDecision(DomOverWDeg.java:81)
+	at org.chocosolver.solver.search.strategy.selectors.variables.DomOverWDeg.getDecision(DomOverWDeg.java:112)
+	at org.chocosolver.solver.search.strategy.strategy.StrategiesSequencer.getDecision(StrategiesSequencer.java:97)
+	at org.chocosolver.solver.search.strategy.strategy.LastConflict.getDecision(LastConflict.java:101)
+	at org.chocosolver.solver.search.strategy.strategy.StrategiesSequencer.getDecision(StrategiesSequencer.java:97)
+	at org.chocosolver.solver.search.loop.move.MoveBinaryDFS.extend(MoveBinaryDFS.java:61)
+	at org.chocosolver.solver.search.loop.move.MoveRestart.extend(MoveRestart.java:81)
+	at org.chocosolver.solver.Solver.extend(Solver.java:429)
+	at org.chocosolver.solver.Solver.searchLoop(Solver.java:298)
+	at org.chocosolver.solver.Solver.solve(Solver.java:264)
+	at org.chocosolver.parser.xcsp.XCSP.singleThread(XCSP.java:148)
+	at org.chocosolver.parser.xcsp.XCSP.solve(XCSP.java:132)
+	at org.chocosolver.parser.xcsp.ChocoXCSP.main(ChocoXCSP.java:25)
+
+real	8m24.208s
+user	8m35.180s
+sys	0m0.500s
+
+Stations-COP1-celar_500_30_20_5_0.870000_48
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at org.chocosolver.memory.trailing.trail.flatten.StoredLongTrail.resizeUpdateCapacity(StoredLongTrail.java:177)
+	at org.chocosolver.memory.trailing.trail.flatten.StoredLongTrail.buildFakeHistory(StoredLongTrail.java:154)
+	at org.chocosolver.memory.trailing.StoredLong.<init>(StoredLong.java:31)
+	at org.chocosolver.memory.trailing.EnvironmentTrailing.makeLong(EnvironmentTrailing.java:175)
+	at org.chocosolver.memory.structure.S64BitSet.ensureCapacity(S64BitSet.java:136)
+	at org.chocosolver.memory.structure.S64BitSet.expandTo(S64BitSet.java:167)
+	at org.chocosolver.memory.structure.S64BitSet.set(S64BitSet.java:199)
+	at org.chocosolver.memory.structure.S64BitSet.set(S64BitSet.java:216)
+	at org.chocosolver.util.objects.setDataStructures.bitset.Set_Std_BitSet.add(Set_Std_BitSet.java:62)
+	at org.chocosolver.solver.constraints.nary.nValue.amnv.rules.R3.enforceEq(R3.java:115)
+	at org.chocosolver.solver.constraints.nary.nValue.amnv.rules.R3.filter(R3.java:95)
+	at org.chocosolver.solver.constraints.nary.nValue.PropAMNV.propagate(PropAMNV.java:75)
+	at org.chocosolver.solver.propagation.hardcoded.SevenQueuesPropagatorEngine.propagate(SevenQueuesPropagatorEngine.java:208)
+	at org.chocosolver.solver.search.strategy.selectors.values.IntDomainBest.bound(IntDomainBest.java:101)
+	at org.chocosolver.solver.search.strategy.selectors.values.IntDomainBest.selectValue(IntDomainBest.java:70)
+	at org.chocosolver.solver.search.strategy.selectors.variables.DomOverWDeg.computeDecision(DomOverWDeg.java:81)
+	at org.chocosolver.solver.search.strategy.selectors.variables.DomOverWDeg.getDecision(DomOverWDeg.java:112)
+	at org.chocosolver.solver.search.strategy.strategy.StrategiesSequencer.getDecision(StrategiesSequencer.java:97)
+	at org.chocosolver.solver.search.strategy.strategy.LastConflict.getDecision(LastConflict.java:101)
+	at org.chocosolver.solver.search.strategy.strategy.StrategiesSequencer.getDecision(StrategiesSequencer.java:97)
+	at org.chocosolver.solver.search.loop.move.MoveBinaryDFS.extend(MoveBinaryDFS.java:61)
+	at org.chocosolver.solver.search.loop.move.MoveRestart.extend(MoveRestart.java:81)
+	at org.chocosolver.solver.Solver.extend(Solver.java:429)
+	at org.chocosolver.solver.Solver.searchLoop(Solver.java:298)
+	at org.chocosolver.solver.Solver.solve(Solver.java:264)
+	at org.chocosolver.parser.xcsp.XCSP.singleThread(XCSP.java:148)
+	at org.chocosolver.parser.xcsp.XCSP.solve(XCSP.java:132)
+	at org.chocosolver.parser.xcsp.ChocoXCSP.main(ChocoXCSP.java:25)
+
+real	8m22.177s
+user	8m34.000s
+sys	0m0.476s
+
+Stations-COP1-celar_50_7_10_5_0.800000_0
+
+real	8m20.517s
+user	8m26.236s
+sys	0m0.392s
+
+Stations-COP1-celar_50_7_10_5_0.800000_1
+
+real	8m20.502s
+user	8m26.672s
+sys	0m0.204s
+
+Stations-COP1-celar_50_7_10_5_0.800000_6
+
+real	8m20.498s
+user	8m26.516s
+sys	0m0.328s
+
+Stations-COP1-celar_50_7_10_5_0.800000_7
+
+real	8m20.543s
+user	8m27.084s
+sys	0m0.320s
+
+Stations-COP1-celar_50_7_10_5_0.800000_8
+
+real	8m20.530s
+user	8m26.860s
+sys	0m0.184s
+
+Stations-COP2-celar_150_13_15_5_0.800000_26
+
+real	0m2.812s
+user	0m9.316s
+sys	0m0.100s
+
+Stations-COP2-celar_150_13_15_5_0.800000_28
+
+real	0m3.709s
+user	0m10.120s
+sys	0m0.076s
+
+Stations-COP2-celar_150_13_15_5_0.800000_29
+
+real	0m12.694s
+user	0m19.760s
+sys	0m0.084s
+
+Stations-COP2-celar_150_13_15_5_0.800000_2
+
+real	0m2.052s
+user	0m7.108s
+sys	0m0.108s
+
+Stations-COP2-celar_150_13_15_5_0.800000_8
+
+real	0m1.900s
+user	0m6.568s
+sys	0m0.060s
+
+Stations-COP2-celar_250_25_15_5_0.820000_20
+
+real	0m2.989s
+user	0m8.920s
+sys	0m0.096s
+
+Stations-COP2-celar_250_25_15_5_0.820000_22
+
+real	0m3.474s
+user	0m10.040s
+sys	0m0.092s
+
+Stations-COP2-celar_250_25_15_5_0.820000_5
+
+real	0m4.422s
+user	0m10.576s
+sys	0m0.140s
+
+Stations-COP2-celar_250_25_15_5_0.820000_7
+
+real	0m4.370s
+user	0m11.284s
+sys	0m0.160s
+
+Stations-COP2-celar_250_25_15_5_0.820000_9
+
+real	0m6.575s
+user	0m13.608s
+sys	0m0.108s
+
+Stations-COP2-celar_500_30_20_5_0.870000_24
+
+real	0m9.238s
+user	0m17.352s
+sys	0m0.160s
+
+Stations-COP2-celar_500_30_20_5_0.870000_29
+
+real	0m17.081s
+user	0m25.584s
+sys	0m0.184s
+
+Stations-COP2-celar_500_30_20_5_0.870000_45
+
+real	0m10.516s
+user	0m19.156s
+sys	0m0.244s
+
+Stations-COP2-celar_500_30_20_5_0.870000_48
+
+real	0m13.959s
+user	0m22.700s
+sys	0m0.112s
+
+Stations-COP2-celar_50_7_10_5_0.800000_0
+
+real	0m0.874s
+user	0m2.624s
+sys	0m0.036s
+
+Stations-COP2-celar_50_7_10_5_0.800000_1
+
+real	0m2.369s
+user	0m6.680s
+sys	0m0.040s
+
+Stations-COP2-celar_50_7_10_5_0.800000_6
+
+real	0m1.877s
+user	0m6.680s
+sys	0m0.096s
+
+Stations-COP2-celar_50_7_10_5_0.800000_7
+
+real	0m0.856s
+user	0m2.584s
+sys	0m0.044s
+
+Stations-COP2-celar_50_7_10_5_0.800000_8
+
+real	0m0.880s
+user	0m2.568s
+sys	0m0.056s
+
+Stations-COP3-celar_150_13_15_5_0.800000_26
+
+real	0m3.149s
+user	0m9.568s
+sys	0m0.128s
+
+Stations-COP3-celar_150_13_15_5_0.800000_28
+
+real	0m6.837s
+user	0m13.448s
+sys	0m0.084s
+
+Stations-COP3-celar_150_13_15_5_0.800000_29
+
+real	0m3.190s
+user	0m9.020s
+sys	0m0.156s
+
+Stations-COP3-celar_150_13_15_5_0.800000_2
+
+real	0m2.053s
+user	0m6.904s
+sys	0m0.088s
+
+Stations-COP3-celar_150_13_15_5_0.800000_8
+
+real	0m2.732s
+user	0m8.480s
+sys	0m0.096s
+
+Stations-COP3-celar_250_25_15_5_0.820000_20
+
+real	0m4.639s
+user	0m12.224s
+sys	0m0.120s
+
+Stations-COP3-celar_250_25_15_5_0.820000_22
+
+real	0m3.242s
+user	0m8.308s
+sys	0m0.104s
+
+Stations-COP3-celar_250_25_15_5_0.820000_5
+
+real	0m5.875s
+user	0m12.664s
+sys	0m0.164s
+
+Stations-COP3-celar_250_25_15_5_0.820000_7
+
+real	0m4.795s
+user	0m12.128s
+sys	0m0.192s
+
+Stations-COP3-celar_250_25_15_5_0.820000_9
+
+real	0m5.767s
+user	0m13.904s
+sys	0m0.104s
+
+Stations-COP3-celar_500_30_20_5_0.870000_24
+
+real	0m10.110s
+user	0m17.628s
+sys	0m0.192s
+
+Stations-COP3-celar_500_30_20_5_0.870000_29
+
+real	0m23.912s
+user	0m31.976s
+sys	0m0.224s
+
+Stations-COP3-celar_500_30_20_5_0.870000_45
+
+real	0m13.716s
+user	0m23.892s
+sys	0m0.164s
+
+Stations-COP3-celar_500_30_20_5_0.870000_48
+
+real	0m14.407s
+user	0m21.724s
+sys	0m0.240s
+
+Stations-COP3-celar_50_7_10_5_0.800000_0
+
+real	0m1.054s
+user	0m3.208s
+sys	0m0.080s
+
+Stations-COP3-celar_50_7_10_5_0.800000_1
+
+real	0m2.426s
+user	0m6.704s
+sys	0m0.080s
+
+Stations-COP3-celar_50_7_10_5_0.800000_6
+
+real	0m1.875s
+user	0m6.392s
+sys	0m0.060s
+
+Stations-COP3-celar_50_7_10_5_0.800000_7
+
+real	0m0.940s
+user	0m2.848s
+sys	0m0.048s
+
+Stations-COP3-celar_50_7_10_5_0.800000_8
+
+real	0m0.992s
+user	0m2.988s
+sys	0m0.044s
+

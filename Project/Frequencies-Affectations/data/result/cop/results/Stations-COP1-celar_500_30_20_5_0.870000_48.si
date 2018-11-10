@@ -1,0 +1,7 @@
+c java -server -Xmx500m -cp .:.//choco-parsers.jar org.chocosolver.parser.xcsp.ChocoXCSP "instances/Stations-COP1-celar_500_30_20_5_0.870000_48.xml"  -tl '500s' -p 1 -x 0
+c [instances/Stations-COP1-celar_500_30_20_5_0.870000_48.xml, -tl, 500s, -p, 1, -x, 0]
+c simple solver
+c parse instance...
+c solve instance...
+s UNKNOWN
+c Unexpected resolution interruption!

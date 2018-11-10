@@ -1,0 +1,13 @@
+c java -server -Xmx500m -cp .:.//choco-parsers.jar org.chocosolver.parser.xcsp.ChocoXCSP "instances/Stations-COP2-celar_50_7_10_5_0.800000_6.xml"  -tl '500s' -p 1 -x 0
+c [instances/Stations-COP2-celar_50_7_10_5_0.800000_6.xml, -tl, 500s, -p, 1, -x, 0]
+c simple solver
+c parse instance...
+c solve instance...
+o 434 
+o 406 
+o 392 
+s OPTIMUM FOUND
+v <instantiation>
+v 	<list>xe_0 xr_0 xe_1 xr_1 xe_2 xr_2 xe_3 xr_3 xe_4 xr_4 xe_5 xr_5 xe_6 xr_6 xe_7 xr_7 xe_8 xr_8 xe_9 xr_9 xe_10 xr_10 xe_11 xr_11 xe_12 xr_12 xe_13 xr_13 xe_14 xr_14 xe_15 xr_15 xe_16 xr_16 xe_17 xr_17 xe_18 xr_18 xe_19 xr_19 xe_20 xr_20 xe_21 xr_21 xe_22 xr_22 xe_23 xr_23 xe_24 xr_24 xe_25 xr_25 xe_26 xr_26 xe_27 xr_27 xe_28 xr_28 xe_29 xr_29 xe_30 xr_30 xe_31 xr_31 xe_32 xr_32 xe_33 xr_33 xe_34 xr_34 xe_35 xr_35 xe_36 xr_36 xe_37 xr_37 xe_38 xr_38 xe_39 xr_39 xe_40 xr_40 xe_41 xr_41 xe_42 xr_42 xe_43 xr_43 xe_44 xr_44 xe_45 xr_45 xe_46 xr_46 xe_47 xr_47 xe_48 xr_48 xe_49 xr_49 </list>
+v 	<values>294 14 350 70 322 42 336 56 308 28 70 350 336 56 350 70 56 350 308 28 308 14 392 112 294 14 308 14 350 70 350 56 14 308 294 14 98 392 322 42 336 56 350 70 42 322 14 294 112 392 14 294 322 42 112 392 378 84 14 294 98 392 336 56 350 70 14 294 14 294 14 308 350 56 84 364 112 392 112 392 378 98 336 42 392 98 14 294 294 14 84 364 84 364 350 56 42 322 84 364 </values>
+v </instantiation>
